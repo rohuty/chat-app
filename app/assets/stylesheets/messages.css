@@ -1,0 +1,160 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-header {
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.chat {
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+}
+
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a{
+  border: darkred solid 1px;
+  padding: 20px;
+  color: darkred;
+  text-decoration: none;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll; /* スクロールに対応 */
+}
+
+.message {
+  margin: 10px 0; /* 上下のマージンをとる */
+}
+
+.upper-message {
+  display: flex; /* 横並びにする */
+}
+
+.message-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px; /* userとcontentの間隔をとる */
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px; /* 投稿の間隔をとる */
+}
+
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex; /* formを構成する要素を横並びにする */
+}
+
+.form-input {
+  background-color: white;
+  width: 100%; /* 入力欄の幅を最大化 */
+  display: flex;
+}
+
+.form-message {
+  border: none; /* 枠の透明化 */
+  height: 50px;
+  width: 100%; /*  */
+  padding-left: 10px; /* 端からtype a messageの間隔 */
+}
+
+.form-submit {
+  color: white;
+  font-size: 16px;
+  background-color: #38AEF0;
+  height: 50px; /* ボタンの高さ */
+  padding: 0 20px; /* ボタンの文字の脇の幅 */
+  margin-left: 15px; /* 入力蘭とボタンの間隔 */
+  border: none; /* 枠の透明化 */
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
